@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.icons {
+  font-size: 1.2em;
+}
+
+.icons:hover {
+  color: #61dafb;
+  text-shadow: 0 0 5px #61dafb;
+}
+
+h5 {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(252, 242, 228);
+}
+
+.header {
+  text-align: right;
+  padding: 10px;
+  background-color:  #e1f0de;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(39, 37, 37);
+}
+
+.cart {
+  text-align: right;
+  padding: 40px;
+  background-color:  #fbebeb;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(39, 37, 37);
+}
+
+.logo {
+  clear: both;
+  margin: 2% 0;
+  float: left;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#bookstore {
+  margin: 20px;
+  text-align: center;
+  font-family: fantasy, sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.nav {
+  background-color: #6f7888;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.nav a:hover {
+  color: #61dafb;
+}
+
+.home {
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #f8f0d4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(69, 65, 65);
+}
+
+.review {
+  background-color: #e8f9d5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(69, 65, 65);
+}
+
+.signUp {
+  background-color: #f8f0d4;
+  display: flex;
+  justify-content: center;
+  color: rgb(69, 65, 65);
+}
+
+.login {
+  background-color: #f8f0d4;
+  justify-content: center;
+  color: rgb(69, 65, 65);
+}
+
+.footer {
+  clear: both;
+  background-color: #bbd1ff;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.media {
+  display: flex;
+  justify-content: center;
+}
+
+.media svg {
+  margin: 0 5px;
+}
+
+svg:hover {
+  color: #61dafb;
+}
