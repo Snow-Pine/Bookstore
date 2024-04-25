@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Books from './components/Books';
 import Review from './components/Review';
@@ -21,7 +21,6 @@ const App = () => {
 
   return (
     <div className='App'>
-    <Router>
     <Header />
         <NavBar />
         <Routes>
@@ -33,7 +32,6 @@ const App = () => {
           <Route path="/cart" element={<Cart addCart={cart} setNewCart={setCart}/>} />
         </Routes>
     <Footer />
-    </Router>
     </div>
   );
 }
